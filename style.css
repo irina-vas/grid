@@ -88,7 +88,26 @@ figure > img {
 
 @media (min-width: 500px) and (max-width: 999px) {
   .wrapper {
-    grid-template-rows: repeat(5, 200px);
-    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(5, 220px);
+    grid-template-columns: repeat(2, 270px);
+  }
+
+  img:hover {
+    width: 230px;
   }
 }
+
+
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .wrapper {
+    grid-template-rows: repeat(3, 220px);
+    grid-template-columns: repeat(4, 250px);
+    grid-column-gap: 0px;
+  }
+
+  img:hover {
+    width: 230px;
+  }
+}
+
